@@ -55,4 +55,20 @@ main {
   margin: 16px;
   padding: 8px;
   background: var(--clr-background);
+
+  .date {
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+  }
+
+  .surf-break {
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-normal);
+    margin: 8px 0;
+  }
+
+  .info-title {
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+  }
 }
