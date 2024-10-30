@@ -121,3 +121,23 @@ main {
     align-self: center;
   }
 }
+
+nav {
+  position: fixed;
+  bottom: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+svg {
+  --size: 40px;
+  padding: 8px;
+  height: var(--size);
+  width: var(--size);
+  border: none;
+  border-radius: calc(var(--size) / 4);
+  background-color: #2b2930;
+  color: var(--clr-background);
+}
