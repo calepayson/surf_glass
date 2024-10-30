@@ -64,7 +64,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
 }
 
 .date {
@@ -81,6 +81,11 @@ main {
 .info-title {
   font-size: var(--fs-h1);
   font-weight: var(--fw-bold);
+}
+
+.info {
+  font-size: var(--fs-body);
+  font-weight: var(--fw-normal);
 }
 
 .direction {
@@ -104,4 +109,15 @@ main {
   clip-path: polygon(50% 0, 0% 100%, 100% 100%);
   transform: translateY(-50%) rotate(var(--direction));
   transform-origin: bottom center;
+}
+
+.tide-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+
+  .info-title {
+    grid-row: 1 / 3;
+    align-self: center;
+  }
 }
