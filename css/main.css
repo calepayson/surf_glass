@@ -55,20 +55,29 @@ main {
   margin: 16px;
   padding: 8px;
   background: var(--clr-background);
+  display: flex;
+  flex-direction: column;
+}
 
-  .date {
-    font-size: var(--fs-xl);
-    font-weight: var(--fw-bold);
-  }
+.forecast-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
 
-  .surf-break {
-    font-size: var(--fs-h2);
-    font-weight: var(--fw-normal);
-    margin: 8px 0;
-  }
+.date {
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-bold);
+}
 
-  .info-title {
-    font-size: var(--fs-h1);
-    font-weight: var(--fw-bold);
-  }
+.surf-break {
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-normal);
+  margin: 8px 0;
+}
+
+.info-title {
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
 }
